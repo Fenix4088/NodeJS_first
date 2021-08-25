@@ -1,0 +1,22 @@
+.App {
+  position: relative;
+}
+
+.form {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  transform: translate(0%, 40%);
+  width: 25%;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  border: 1px solid blueviolet;
+}
+
+.form-item {
+  display: flex;
+  flex-flow: column nowrap;
+}
